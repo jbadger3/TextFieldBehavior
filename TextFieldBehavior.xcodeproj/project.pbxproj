@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC6565A526135A7100CA0240 /* FormattedTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6565A426135A7100CA0240 /* FormattedTextFieldApp.swift */; };
+		FC4A51EF261CCEB600989374 /* Optional+WrappedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A51EE261CCEB600989374 /* Optional+WrappedString.swift */; };
+		FC6565A526135A7100CA0240 /* TextFieldBehaviorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6565A426135A7100CA0240 /* TextFieldBehaviorApp.swift */; };
 		FC6565A726135A7100CA0240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6565A626135A7100CA0240 /* ContentView.swift */; };
 		FC6565A926135A7400CA0240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6565A826135A7400CA0240 /* Assets.xcassets */; };
 		FC6565AC26135A7400CA0240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6565AB26135A7400CA0240 /* Preview Assets.xcassets */; };
+		FC6565B526135A8900CA0240 /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6565B426135A8900CA0240 /* NumericTextField.swift */; };
+		FCC7F832261504A500D4B80A /* UIView+parentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC7F831261504A500D4B80A /* UIView+parentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC6565A126135A7100CA0240 /* FormattedTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormattedTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC6565A426135A7100CA0240 /* FormattedTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedTextFieldApp.swift; sourceTree = "<group>"; };
+		FC4A51EE261CCEB600989374 /* Optional+WrappedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+WrappedString.swift"; sourceTree = "<group>"; };
+		FC6565A126135A7100CA0240 /* TextFieldBehavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldBehavior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6565A426135A7100CA0240 /* TextFieldBehaviorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBehaviorApp.swift; sourceTree = "<group>"; };
 		FC6565A626135A7100CA0240 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC6565A826135A7400CA0240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC6565AB26135A7400CA0240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC6565AD26135A7400CA0240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6565B426135A8900CA0240 /* NumericTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericTextField.swift; sourceTree = "<group>"; };
+		FCC7F831261504A500D4B80A /* UIView+parentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+parentViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +42,7 @@
 		FC65659826135A7100CA0240 = {
 			isa = PBXGroup;
 			children = (
-				FC6565A326135A7100CA0240 /* FormattedTextField */,
+				FC6565A326135A7100CA0240 /* TextFieldBehavior */,
 				FC6565A226135A7100CA0240 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +50,24 @@
 		FC6565A226135A7100CA0240 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC6565A126135A7100CA0240 /* FormattedTextField.app */,
+				FC6565A126135A7100CA0240 /* TextFieldBehavior.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC6565A326135A7100CA0240 /* FormattedTextField */ = {
+		FC6565A326135A7100CA0240 /* TextFieldBehavior */ = {
 			isa = PBXGroup;
 			children = (
-				FC6565A426135A7100CA0240 /* FormattedTextFieldApp.swift */,
 				FC6565A626135A7100CA0240 /* ContentView.swift */,
+				FC6565A426135A7100CA0240 /* TextFieldBehaviorApp.swift */,
+				FC6565B426135A8900CA0240 /* NumericTextField.swift */,
+				FCC7F831261504A500D4B80A /* UIView+parentViewController.swift */,
+				FC4A51EE261CCEB600989374 /* Optional+WrappedString.swift */,
 				FC6565A826135A7400CA0240 /* Assets.xcassets */,
 				FC6565AD26135A7400CA0240 /* Info.plist */,
 				FC6565AA26135A7400CA0240 /* Preview Content */,
 			);
-			path = FormattedTextField;
+			path = TextFieldBehavior;
 			sourceTree = "<group>";
 		};
 		FC6565AA26135A7400CA0240 /* Preview Content */ = {
@@ -72,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC6565A026135A7100CA0240 /* FormattedTextField */ = {
+		FC6565A026135A7100CA0240 /* TextFieldBehavior */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC6565B026135A7400CA0240 /* Build configuration list for PBXNativeTarget "FormattedTextField" */;
+			buildConfigurationList = FC6565B026135A7400CA0240 /* Build configuration list for PBXNativeTarget "TextFieldBehavior" */;
 			buildPhases = (
 				FC65659D26135A7100CA0240 /* Sources */,
 				FC65659E26135A7100CA0240 /* Frameworks */,
@@ -84,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = FormattedTextField;
+			name = TextFieldBehavior;
 			productName = FormattedTextField;
-			productReference = FC6565A126135A7100CA0240 /* FormattedTextField.app */;
+			productReference = FC6565A126135A7100CA0240 /* TextFieldBehavior.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC65659C26135A7100CA0240 /* Build configuration list for PBXProject "FormattedTextField" */;
+			buildConfigurationList = FC65659C26135A7100CA0240 /* Build configuration list for PBXProject "TextFieldBehavior" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC6565A026135A7100CA0240 /* FormattedTextField */,
+				FC6565A026135A7100CA0240 /* TextFieldBehavior */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6565B526135A8900CA0240 /* NumericTextField.swift in Sources */,
 				FC6565A726135A7100CA0240 /* ContentView.swift in Sources */,
-				FC6565A526135A7100CA0240 /* FormattedTextFieldApp.swift in Sources */,
+				FC6565A526135A7100CA0240 /* TextFieldBehaviorApp.swift in Sources */,
+				FC4A51EF261CCEB600989374 /* Optional+WrappedString.swift in Sources */,
+				FCC7F832261504A500D4B80A /* UIView+parentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +280,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FormattedTextField/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TextFieldBehavior/Preview Content\"";
 				DEVELOPMENT_TEAM = ULYJ4WCBG7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FormattedTextField/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TextFieldBehavior/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +302,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FormattedTextField/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TextFieldBehavior/Preview Content\"";
 				DEVELOPMENT_TEAM = ULYJ4WCBG7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FormattedTextField/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TextFieldBehavior/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC65659C26135A7100CA0240 /* Build configuration list for PBXProject "FormattedTextField" */ = {
+		FC65659C26135A7100CA0240 /* Build configuration list for PBXProject "TextFieldBehavior" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC6565AE26135A7400CA0240 /* Debug */,
@@ -318,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC6565B026135A7400CA0240 /* Build configuration list for PBXNativeTarget "FormattedTextField" */ = {
+		FC6565B026135A7400CA0240 /* Build configuration list for PBXNativeTarget "TextFieldBehavior" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC6565B126135A7400CA0240 /* Debug */,
