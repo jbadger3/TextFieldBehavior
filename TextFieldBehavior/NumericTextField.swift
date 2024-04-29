@@ -88,6 +88,9 @@ struct NumericTextField<T>: UIViewRepresentable {
             
             if let newValue = valueContainer as? T,
                errorContainer == nil {
+                if let stringVal = formatter.string(for: value) {
+                    textField.text = stringVal
+                }
                 self.value = newValue
             }
         }
